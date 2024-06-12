@@ -1,7 +1,11 @@
+import CurencyConverter from "./components/CurencyConverter";
+
 function App() {
   return (
     <>
-      <div className="text-red-600 text-2xl font-bold">hello from dipu</div>
+      <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
+        <CurencyConverter />
+      </div>
     </>
   );
 }
